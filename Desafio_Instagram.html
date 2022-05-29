@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Instagram</title>
+</head>
+<body>
+
+    <!--Onde vai ficar todo o conteudo da pagina-->
+    <div class="instagram-wrapper">
+
+        <!--div responsavel pela imagem do aparelho (cel/tablet)-->
+        <div class="tablet-teste">
+
+            <!--Apresenta a imagem do Tablet/cel na pagina, puxando a mesma da pasta "Imagens"-->
+            <img src="./Imagens/tablet-teste.png" alt="tablet">
+        </div>
+
+        <!--div responsavel pela caixa informação, p/ acessar o "Instagram" com a conta ja existente-->
+        <div class="instagram-continue">
+
+            <!--div para agrupar na mema caixa o cont. acesso-->
+            <div class="group">
+
+                <!--Apresenta a imagem do logo na pagina, puxando a mesma da pasta "Imagens"-->
+                <img src="./Imagens/instagram-logo.png" class="instagram-logo" alt="instagram logo">
+                
+                <!--div que armasena a foto de prefil-->
+                <div class="profile-photo">
+
+                    <!--Apresenta a imagem de perfil na pagina, puxando a mesma da pasta "Imagens"-->
+                    <img src="./Imagens/imagem-de-perfil.png" alt="foto de perfil">
+                </div>
+
+                <!--Texto que sera apresentado no botão continuar com a conta... O href="#" foi usado para não ter ação ao clicar no botão-->
+                <a href="#" class="instagram-login">Continue como anderson_f</a>
+
+                <!--Texto que sera apresentado no botão Remover conta...-->
+                <a href="#" class="instagram-logout">Remover conta</a>
+            </div>
+
+            <!--div para agrupar na mesma caixa o as opções não é a pessoa / outro acesso-->
+            <div class="group">
+
+                <!--Apresentar a palavar não é a pessoa...--> 
+                <p class="not-account">Não é anderson_f?</p>
+
+                <!--Apresentar as palavaras alterar ou criar conta--> 
+                <p class="not-account">
+                    <span class="link-blue">Alternar contas</span>
+                    ou
+                    <span class="link-blue">Inscreva-se</span>
+                </p>
+            </div>
+
+            <!--div para agrupar na mesma caixa baixa app / e os locais para baixar-->
+            <div class="get-the-app">
+
+                <!--Apresentar a palavara baixar app--> 
+                <p class="get-app">Baixe o aplicativo</p>
+
+                <!--div para ordenar as imagens/botão de "download do app"-->
+                <div class="download">
+                    <a href="#" class="app-download"></a>
+                    <a href="#" class="app-download"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
